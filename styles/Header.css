@@ -90,3 +90,55 @@ header img{
         opacity: 1;
     }
 }
+
+@media only screen and (max-width: 1366px) {
+    header{
+        display: flex;
+        width: 100%;
+        max-width: 1250px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+
+    .socialmedia svg{
+        display: none;
+    }
+
+    .container-top{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .fa-bars{
+        color: white;
+    }
+
+    .fa-bars:hover{
+        color: #C51212;
+        cursor: pointer;
+    }
+
+    .fa-x:hover{
+        color:#C51212 ;
+    }
+
+    .fa-x{
+        cursor: pointer;
+        color: white;
+    }
+
+    .nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        height: 100vh;
+        padding-top: 80px;
+    }
+
+}

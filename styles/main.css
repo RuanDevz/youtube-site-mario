@@ -98,3 +98,65 @@ button {
   button#red:hover:before {
     transform: translateX(15em);
   }
+
+  .mario-luigi img{
+    width: 650px;
+  }
+
+/* Estilos para telas menores que 1366 pixels */
+@media only screen and (max-width: 1366px) {
+  .mario-luigi img{
+    width: 420px;
+    margin-top: 20px;
+    margin-right: 40px;
+  }
+
+  .maininfo{
+    padding-top: 100px;
+    width: 100%;
+    max-width: 520px;
+    margin-left: 80px;
+  }
+
+  .maininfo p{
+    font-size: 13px;
+    margin: 20px 0 28px;
+    color: white;
+}
+}
+
+@media only screen and (max-width: 1000px){
+  .nav{
+    display: none;
+  }
+
+  .nav li{
+    margin-bottom: 70px;
+  }
+
+  .nav li a{
+    font-size: 1.2em;
+  }
+  .mario-luigi img{
+    display: none;
+  }
+
+  .maininfo p {
+    font-size: 13px;
+    max-width: 300px;
+  }
+  .maininfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  button#red{
+    width: 150px;
+  }
+
+  button{
+    width: 150px;
+  }
+}
